@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { ShopContext } from "../context/ShopContext";
 import Title from "./Title";
 import ProductItem from "./ProductItem";
@@ -33,7 +33,7 @@ const BestSeller = () => {
             image={item.image}
             name={item.name}
             price={item.price}
-          /> 
+          />
         ))}
       </div>
     </div>
