@@ -4,7 +4,7 @@ const connectDB = async () =>{
     mongoose.connection.on('connected', ()=>{
         console.log('DB Conneceted')
     })
-    await mongoose.connect(`mongodb://localhost:27017/`)
+    await mongoose.connect(`mongodb://localhost:27017/neverDB`)
 
  
 }
