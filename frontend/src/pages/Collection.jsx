@@ -74,7 +74,7 @@ const Collection = () => {
   useEffect(() => {
     applyFilter();
     // console.log(subcategory);
-  }, [category, subCategory, search, showSearch]);
+  }, [category, subCategory, search, showSearch, products]);
 
   useEffect(()=>{
     sortProduct();
@@ -198,6 +198,7 @@ const Collection = () => {
               image={item.image}
             />
           ))}
+          
         </div>
       </div>
     </div>
